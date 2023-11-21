@@ -234,12 +234,7 @@ export default function CourseInformationForm() {
           <option value="" enable>
             Choose a Category
           </option>
-          <option value="1" enable>
-            Web Development
-          </option>
-          <option value="" enable>
-            Data Structure and Algorithms
-          </option>
+          
           {!loading &&
             courseCategories?.map((category, indx) => (
               <option key={indx} value={category?._id}>
