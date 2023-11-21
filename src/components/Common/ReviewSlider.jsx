@@ -36,8 +36,8 @@ function ReviewSlider() {
   // console.log(reviews)
 
   return (
-    <div className="text-white">
-      <div className="my-[50px] h-[184px] max-w-maxContentTab lg:max-w-maxContent">
+    <div className="my-[50px] h-[184px] text-white w-11/12 max-w-maxContent">
+      <div className="my-[50px] h-[184px] max-w-maxContentTab min-w-maxContentTab lg:max-w-maxContent">
         <Swiper
           slidesPerView={4}
           spaceBetween={25}
@@ -97,7 +97,7 @@ function ReviewSlider() {
               </SwiperSlide>
             )
           })}
-          { <SwiperSlide>Slide 1</SwiperSlide> }
+         
         </Swiper>
       </div>
     </div>
