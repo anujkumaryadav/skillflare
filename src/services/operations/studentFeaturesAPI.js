@@ -66,11 +66,11 @@ export async function BuyCourse(
 
     // Opening the Razorpay SDK
     const options = {
-      key: process.env.RAZORPAY_KEY,
+      key: 'rzp_test_PEvaZpfYz6LcJw',
       currency: orderResponse.data.data.currency,
       amount: `${orderResponse.data.data.amount}`,
       order_id: orderResponse.data.data.id,
-      name: "StudyNotion",
+      name: "Skillflare",
       description: "Thank you for Purchasing the Course.",
       image: rzpLogo,
       prefill: {
