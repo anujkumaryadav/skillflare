@@ -8,7 +8,7 @@
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"studynotion-backend"
+		"skillflare-backend"
 	],
 	"author": "Saikat Mukherjee",
 	"license": "ISC",
