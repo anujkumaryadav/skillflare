@@ -1,6 +1,6 @@
 # SkillFlare Edtech Project
 
-https://skill-flare.vercel.app/ \
+https://skill-flare.vercel.app/
 ## Installation
 
 1. Clone the repository: `https://github.com/anujkumaryadav/skillflare.git`
@@ -24,7 +24,7 @@ Contributions are welcome! If you have any suggestions or find any issues, pleas
 
 ## System Architecture
 
-The Study Notion EdTech platform consists of three main components: the front-end, the back-end, and the database. The platform follows a client-server architecture, with the front-end serving as the client and the back-end and database serving as the server.
+The SkillFlare is a  EdTech platform consists of three main components: the front-end, the back-end, and the database. The platform follows a client-server architecture, with the front-end serving as the client and the back-end and database serving as the server.
 
 ### Front-end
 
